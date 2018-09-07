@@ -1,0 +1,53 @@
+Ko Y, Kim K, Seo J (2003) Topic keyword identification for text summarization using lexical clustering. IEICE Trans Inf Syst E86-D:1695-1701.
+Canasai Kruengkrai , Chuleerat Jaruskulchai, Generic Text Summarization Using Local and Global Properties of Sentences, Proceedings of the 2003 IEEE/WIC International Conference on Web Intelligence, p.201, October 13-17, 2003
+Alex Kulesza , Ben Taskar, Determinantal Point Processes for Machine Learning, Now Publishers Inc., Hanover, MA, 2012
+Kulkarni UV, Prasad RS (2010) Implementation and evaluation of evolutionary connectionist approaches to automated text summarization. J Comput Sci 6:1366-1376.
+Landauer TK, Foltz PW, Laham D (1998) An intoduction to latent semantic analysis. Discourse Process 25:259-284.
+Lee DD, Seung HS (1999) Learning the parts of objects by non-negative matrix factorization. Nature 401(6755):788-791.
+Ju-Hong Lee , Sun Park , Chan-Min Ahn , Daeho Kim, Automatic generic document summarization based on non-negative matrix factorization, Information Processing and Management: an International Journal, v.45 n.1, p.20-34, January, 2009
+Daniel Saraiva Leite , Lucia Helena Machado Rino, Selecting a feature set to summarize texts in brazilian portuguese, Proceedings of the 2nd international joint conference, and Proceedings of the 10th Ibero-American Conference on AI 18th Brazilian conference on Advances in Artificial Intelligence, October 23-27, 2006, Ribeirão Preto, Brazil
+Wenyuan Li , Wee-Keong Ng , Ying Liu , Kok-Leong Ong, Enhancing the Effectiveness of Clustering with Spectra Analysis, IEEE Transactions on Knowledge and Data Engineering, v.19 n.7, p.887-902, July 2007
+Li C, Liu F, Weng F, Liu Y (2013) Document summarization via guided sentence compression. In: EMNLP, pp 490-500.
+Li C, Liu Y, Zhao L (2015a) Using external resources and joint learning for bigram weighting in ilp-based multi-document summarization. In: Proceedings of NAACL-HLT, pp 778-787.
+Piji Li , Lidong Bing , Wai Lam , Hang Li , Yi Liao, Reader-aware multi-document summarization via sparse coding, Proceedings of the 24th International Conference on Artificial Intelligence, p.1270-1276, July 25-31, 2015, Buenos Aires, Argentina
+Lin CY (2004) ROUGE: a package for automatic evaluation of summaries. In: Proceedings of ACL text summarization workshop, pp 74-81.
+Hui Lin , Jeff Bilmes, Multi-document summarization via budgeted maximization of submodular functions, Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics, p.912-920, June 02-04, 2010, Los Angeles, California
+Chin-Yew Lin , Eduard Hovy, The automated acquisition of topic signatures for text summarization, Proceedings of the 18th conference on Computational linguistics, p.495-501, July 31-August 04, 2000, Saarbrücken, Germany
+Yong Liu , Xiaolei Wang , Jin Zhang , Hongbo Xu, Personalized PageRank Based Multi-document Summarization, Proceedings of the IEEE International Workshop on Semantic Computing and Systems, p.169-173, July 14-15, 2008
+Xiaoyue Liu , Jonathan J. Webster , Chunyu Kit, An Extractive Text Summarizer Based on Significant Words, Proceedings of the 22nd International Conference on Computer Processing of Oriental Languages. Language Technology for the Knowledge-based Economy, March 26-27, 2009, Hong Kong
+He Liu , Hongliang Yu , Zhi-Hong Deng, Multi-document summarization based on two-level sparse representation model, Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence, p.196-202, January 25-30, 2015, Austin, Texas
+Elena Lloret , Manuel Palomar, A Gradual Combination of Features for Building Automatic Summarisation Systems, Proceedings of the 12th International Conference on Text, Speech and Dialogue, September 13-17, 2009, Pilsen, Czech Republic
+Lloret E, Palomar M (2011a) Analyzing the use of word graphs for abstractive text summarization. In: IMMM 2011, first international conference, pp 61-66.
+Elena Lloret , Manuel Palomar, Text summarisation in progress: a literature review, Artificial Intelligence Review, v.37 n.1, p.1-41, January 2012
+Lloret E, Palomar M (2013) Tackling redundancy in text summarization through different levels of language analysis. Comput Stand Interfaces 35:507-518.
+Elena Lloret , María Teresa Romá-Ferri , Manuel Palomar, Editorial: COMPENDIUM: A text summarization system for generating abstracts of research papers, Data & Knowledge Engineering, 88, p.164-175, November, 2013
+H. P. Luhn, The automatic creation of literature abstracts, IBM Journal of Research and Development, v.2 n.2, p.159-165, April 1958
+Mark T. Maybury , Inderjeet Mani, Advances in Automatic Text Summarization, MIT Press, Cambridge, MA, 1999
+Christopher D. Manning , Prabhakar Raghavan , Hinrich Schütze, Introduction to Information Retrieval, Cambridge University Press, New York, NY, 2008
+Mann W, Thompson S (1988) Rhetorical structure theory: toward a functional theory of text organization. Text 8:243-281.
+Martha Mendoza , Susana Bonilla , Clara Noguera , Carlos Cobos , Elizabeth León, Extractive single-document summarization based on genetic operators and guided local search, Expert Systems with Applications: An International Journal, v.41 n.9, p.4158-4169, July, 2014
+Mihalcea R, Tarau P (2004) TextRank: bringing order into texts. In: Conference on empirical methods in natural language processing. pp 404-411.
+Moawad IF, Aref M (2012) Semantic graph reduction approach for abstractive Text Summarization. In: Proceedings of ICCES 2012, 2012 International Conference on Computer Engineering and Systems, pp 132-138.
+Murdock VG (2006) Aspects of sentence retrieval. University of Massachusetts, Amherst.
+Joel Larocca Neto , Alex Alves Freitas , Celso A. A. Kaestner, Automatic Text Summarization Using a Machine Learning Approach, Proceedings of the 16th Brazilian Symposium on Artificial Intelligence: Advances in Artificial Intelligence, p.205-215, November 11-14, 2002
+Neto JL, Santos AD, Kaestner CAA, Freitas AA (2000) Document clustering and text summarization. In: Proceedings of the fourth international conference practical applications of knowledge discovery and data mining (padd-2000), pp 41-55.
+Nobata C, Satoshi S, Murata M, Uchimoto K, Utimaya M, Isahara H (2001) Sentence extraction system asssembling multiple evidence. In: Proceedings 2nd NTCIR workshop, pp 319-324.
+Orasan C (2009) Comparative evaluation of term-weighing methods for automatic summarization. J Quant Linguist 16:67-95.
+Jahna Otterbacher , Gunes Erkan , Dragomir R. Radev, Biased LexRank: Passage retrieval using random walks with question-based priors, Information Processing and Management: an International Journal, v.45 n.1, p.42-54, January, 2009
+Oufaida H, Philippe B, Omar Nouali (2015) Using distributed word representations and mRMR discriminant analysis for multilingual text summarization. In: Natural language processing and information systems. Springer International Publishing, pp 51-63.
+You Ouyang , Wenjie Li , Sujian Li , Qin Lu, Applying regression models to query-focused multi-document summarization, Information Processing and Management: an International Journal, v.47 n.2, p.227-237, March, 2011
+You Ouyang , Wenjie Li , Renxian Zhang , Sujian Li , Qin Lu, A progressive sentence selection strategy for document summarization, Information Processing and Management: an International Journal, v.49 n.1, p.213-221, January, 2013
+Karolina Owczarzak, DEPEVAL(summ): dependency-based evaluation for automatic summaries, Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP: Volume 1, August 02-07, 2009, Suntec, Singapore
+Bo Pang , Lillian Lee, Opinion Mining and Sentiment Analysis, Foundations and Trends in Information Retrieval, v.2 n.1-2, p.1-135, January 2008
+Pardo TAS, Rino LHM, Nunes MGV (2003a) Neuralsumm: a connexionist approach to automatic text summarization. In: Proceedings of the fourth Brazilian meeting artificial intelligence (ENIA). pp 1-10.
+Thiago Alexandre Salgueiro Pardo , Lucia Helena Machado Rino , Maria das Graças Volpe Nunes, GistSumm: a summarization tool based on a new extractive method, Proceedings of the 6th international conference on Computational processing of the Portuguese language, June 26-27, 2003, Faro, Portugal
+Daraksha Parveen , Michael Strube, Integrating importance, non-redundancy and coherence in graph-based extractive summarization, Proceedings of the 24th International Conference on Artificial Intelligence, p.1298-1304, July 25-31, 2015, Buenos Aires, Argentina
+Alkesh Patel , Tanveer Siddiqui , U. S. Tiwary, A language independent approach to multilingual text summarization, Large Scale Semantic Access to Content (Text, Image, Video, and Sound), May 30-June 01, 2007, Pittsburgh, Pennsylvania
+Emily Pitler , Ani Nenkova, Revisiting readability: a unified framework for predicting text quality, Proceedings of the Conference on Empirical Methods in Natural Language Processing, October 25-27, 2008, Honolulu, Hawaii
+Prasad RS, Uplavikar NM, Wakhare SS, Jain VY, Avinash T (2012) Feature based text summarization. In: International journal of advances in computing and information researches.
+Quirk R, Greenbaum S, Leech G (1985) A comprehensive grammar of the English language. Longman, London and New York.
+Dragomir R. Radev , Daniel Tam, Summarization evaluation using relative utility, Proceedings of the twelfth international conference on Information and knowledge management, November 03-08, 2003, New Orleans, LA, USA
+Radev DR, Fan W, Zhang Z, Arbor A (2001) WebInEssence: a personalized web-based multidocument summarization and recommendation system. In: NAACL 2001 workshop on automatic summarization, pp 79-88.
+Radev D, Allison T, Goldensohn B et al. (2004a) MEAD: a platform for multidocument multilingual text summarization. Proc Lr, 1-4.
+Dragomir R. Radev , Hongyan Jing , Małgorzata Styś , Daniel Tam, Centroid-based summarization of multiple documents, Information Processing and Management: an International Journal, v.40 n.6, p.919-938, November 2004
+Korbinian Riedhammer , Benoit Favre , Dilek Hakkani-Tür, Long story short - Global unsupervised models for keyphrase based meeting summarization, Speech Communication, v.52 n.10, p.801-815, October, 2010
