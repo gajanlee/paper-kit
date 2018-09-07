@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Gajanlee, and Knowledge Grid Contributor">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>  
+    </head>
+
+    <body>
+        <div class="row">
+            <!--        File List   -->
+            <div class="col-md-3 col-xs-12">
+                <div id="file-list" class="my-3 p-3 bg-white rounded box-shadow">
+                    <h3 class="border-bottom border-gray pb-2 mb-0">Files List</h3>
+                </div>
+            </div>
+            <!--    End File List   -->
+
+            <div class="col-md-7 col-xs-12">
+                    <div>
+                        <textarea id="amend-area" style="width: 100%; min-height: 700px;"></textarea>
+                    </div>
+            </div>
+            <div class="col-md-2 col-xs-12">
+                <button id="save-btn">Save</button>
+            </div>
+        </div>
+        
+    </body>
+
+    <script>
+       SHIFT = 16, CTRL = 17, ALT = 18,  CAPSLOCK = 20
+        $("#amend-area").keydown(function(event) {
+            switch(event.keyCode) {
+                case CAPSLOCK:   add_tag_by_selection("；"); break;
+                case SHIFT: add_tag_by_selection("。"); break;
+                case CTRL: add_tag_by_selection("！"); break;
+                case ALT: add_tag_by_selection("？"); break;
+            }
+        })
+        
+        function add_tag_by_selection(tag) {
+            var t = document.getElementById("amend-area")
+            if (window.getSelection) {
+                if (t.selectionStart != undefined && t.selectionEnd != undefined) {
+                    t.value = t.value.substring(0, t.selectionStart) + tag + t.value.substring(t.selectionStart, t.selectionEnd) + tag + t.value.substring(t.selectionEnd, t.value.length)
+                    return t.value.substring(t.selectionStart, t.selectionEnd)
+                }
+            } else {
+                return document.selection.createRange().text;
+            }
+        }
+        
+        function create_request(_type, _url, _success, data) {
+            $.ajax({
+                type: _type,
+                url: _url,
+                success: _success,
+                data: JSON.stringify(data),
+                error: function() {
+                    alert("server internal error!")
+                },
+            })
+        }
+        
+        // 指示当前读取文件的id，当它为-1时代表初始化
+        global_file_id = -1
+        // 请求文件列表，具体文件夹在服务器设置
+        create_request("GET", "/files", function(msg) {
+            msg["files"].forEach(file => {
+                $("#file-list").append("<div class=\"media text-muted pt-3\" onclick=\"get_file_content(" + msg["files"].indexOf(file) + ")\"><div class=\"media-body pb-3 mb-0 lh-125 border-bottom border-gray\"><span class=\"d-block\">" + file + "</span></div></div>")
+            })
+        })
+        
+        function get_file_content(file_id) {
+            global_file_id = file_id
+            create_request("GET", "/content?file_id="+file_id, function(msg) {
+                $("#amend-area").val(msg["content"])
+            })
+        }
+        
+        $("#save-btn").click(function() {
+            create_request("PATCH", "/amend?file_id="+global_file_id, function(msg) {
+                alert(msg)
+            }, {"content": $("#amend-area").val()})
+        })
+         
+    </script>
+</html>

@@ -1,6 +1,8 @@
 # vscode config
 .vscode
 
+# data directory
+*/data
 # Binaries for programs and plugins
 *.exe
 *.exe~
