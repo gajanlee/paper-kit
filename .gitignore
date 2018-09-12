@@ -3,6 +3,8 @@
 
 # data directory
 */data
+*/content
+
 # Binaries for programs and plugins
 *.exe
 *.exe~

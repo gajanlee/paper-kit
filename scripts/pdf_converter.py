@@ -19,6 +19,7 @@ def replace_invisible(content):
 
 # extract by pdfminer
 def get_pdf_content(pdf_path):
+    print(pdf_path)
     with open(pdf_path, "rb") as file:
         parser = PDFParser(file)
         doc = PDFDocument()
@@ -48,13 +49,16 @@ def get_pdf_content(pdf_path):
                     content_recoder.append(replace_invisible(x.get_text()))
             
             # Page procession done, we need detect page number and remove it
-            if content_recoder[-1].isdigit():
-                content_recoder = content_recoder[:-1] + [" "]
-
+            try:
+                if content_recoder[-1].isdigit():
+                    content_recoder = content_recoder[:-1] + [" "]
+            except:
+                pass
         if content_recoder:
             content_recoder = list(filter(lambda c: c and c != content_recoder[0], content_recoder))
         else:
-            raise Exception("No Extracted Content.")
+            pass
+            #raise Exception("No Extracted Content.")
         
         return "\n".join(content_recoder)
 
